@@ -1,0 +1,77 @@
+/* Estilos generales */
+body {
+    background-color: #383434;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0; 
+  }
+  
+  /* Estilos para la barra lateral */
+  .sidebar {
+    width: 20%; 
+    height: 100%;
+    background-color: #383434;
+    border-right: 1px solid #383434;
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+  
+  /* Estilos para el menú */
+  .sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar ul li a {
+    display: block;
+    padding: 10px;
+    color: #ddd;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .sidebar ul li a:hover {
+    background-color: #605d5d;
+  }
+  
+  /* Estilos para los segmentos de color */
+  .main-content {
+    margin-left: 20%;
+    padding: 20px;
+  }
+  
+  .color-segment {
+    height: 200px;
+    margin-bottom: 0px;
+    padding: 20px;
+    color: #fff;
+    height: 25vw; 
+  }
+  
+  .color-segment h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .red {
+    background-color: #e74c3c;
+  }
+  
+  .blue {
+    background-color: #08d4f4;
+  }
+  
+  .orange {
+    background-color: #ff5a24;
+  }
+  
+  .yellow {
+    background-color: #f1c40f;
+  }
+  
