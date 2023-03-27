@@ -1,0 +1,75 @@
+ /* Estilos para la barra lateral */
+ .sidebar {
+    width: 20%; 
+    height: 100%;
+    background-color: #383434;
+    border-right: 1px solid #383434;
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+
+   /* Estilos para el menú */
+   .sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar ul li a {
+    display: block;
+    padding: 10px;
+    color: #ddd;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .sidebar ul li a:hover {
+    background-color: #605d5d;
+  }
+
+    body{
+        background-color: rgb(149, 209, 189);
+    }
+           
+      /* Estilos para cada seccion*/
+
+
+ .div1{
+    background-color: #567c7c;
+    
+    
+ }
+
+ .div2{
+    background-color: #96d48a;
+    
+ }
+
+ .div3{
+
+    background-color: #c59fa4;
+
+ }
+
+ body{
+    font-family: Verdana, Geneva,Tahoma;
+    padding-top: 70px;
+    padding-right: 50px;
+    padding-bottom:100px;
+    padding-left: 270px;
+    
+}
+
+.titulonombregeneral{
+    font-family: sans-serif;
+    text-align: left;
+}
+
+.img{
+  
+}
